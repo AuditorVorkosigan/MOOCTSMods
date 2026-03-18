@@ -1,0 +1,9 @@
+---
+- collection: &Backend.Research.Technology
+    items:
+          - key: technode_tectonic_engineering
+            unlocks:
+                - application: techapp_deep_core_mine
+                - application: techapp_core_waste_dump
+            branches:
+...

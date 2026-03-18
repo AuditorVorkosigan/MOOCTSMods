@@ -1,0 +1,8 @@
+---
+- collection: &Backend.Fleets.ShipModule
+    items:
+          - key: shipmodule_battle_pods
+            availableSpaceMultiplierBonus: 0.50
+            costHullFactor: 2.7
+            baseSize: 0
+...

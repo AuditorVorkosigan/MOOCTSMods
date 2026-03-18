@@ -1,0 +1,15 @@
+---
+- collection: &Backend.Fleets.ShipHullType
+    items:
+        ## PLANETARY DEFENSES
+          - key: hull_missile_base
+            deployOnCenter: false
+          - key: hull_ground_batteries
+            deployOnCenter: false
+          - key: hull_starbase
+            deployOnCenter: false
+          - key: hull_battlestation
+            deployOnCenter: false
+          - key: hull_starfortress
+            deployOnCenter: false
+...

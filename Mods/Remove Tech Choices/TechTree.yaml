@@ -1,0 +1,262 @@
+---
+- collection: &Backend.Research.Technology
+    items:
+          - key: technode_electronics
+            unlocks:
+                - application: techapp_modifications_laser_cannon
+                - application: techapp_deep_scanner
+                - application: techapp_electronic_computer
+            branches:
+          - key: technode_advanced_magnetism
+            unlocks:
+                - application: techapp_modifications_neutron_blaster
+                - application: techapp_class_i_shield
+                - application: techapp_ecm_jammer
+            branches:
+          - key: technode_xenobiotic
+            unlocks:
+                - application: techapp_uber_inferno
+                - application: techapp_uber_tropical
+                - application: techapp_uber_grassland
+                - application: techapp_uber_cavernous
+                - application: techapp_uber_ocean
+                - application: techapp_toxics_processor
+                - application: techapp_soil_enrichment
+                - application: techapp_deep_sea_cooling
+            branches:
+          - key: technode_genetic_engineering
+            unlocks:
+                - application: techapp_cloning_center
+                - application: techapp_microbiotics
+            branches:
+          - key: technode_fusion_weapons
+            unlocks:
+                - application: techapp_miniaturization_bombs_1
+                - application: techapp_fusion_beam
+                - application: techapp_fusion_bomb
+            branches:
+          - key: technode_xenology
+            unlocks:
+                - application: techapp_alien_management_center
+                - application: techapp_xeno_psychology
+            branches:
+          - key: technode_artificial_gravity
+            unlocks:
+                - application: techapp_gravity_generators
+                - application: techapp_orbital_shipyard
+                - application: techapp_moon_laboratory
+            branches:
+          - key: technode_tachyon_physics
+            unlocks:
+                - application: techapp_modifications_mass_driver
+                - application: techapp_tachyon_scanner
+                - application: techapp_battle_scanner
+                - application: techapp_tachyon_communications
+            branches:
+          - key: technode_robotics
+            unlocks:
+                - application: techapp_ground_batteries
+                - application: techapp_modifications_proton_torpedoes
+                - application: techapp_automated_repair_unit
+                - application: techapp_dauntless_guidance_system
+            branches:
+          - key: technode_genetic_mutations
+            unlocks:
+                - application: techapp_terraforming
+                - application: techapp_telepathic_training
+                - application: techapp_heightened_intelligence
+            branches:
+          - key: technode_advanced_construction
+            unlocks:
+                - application: techapp_survival_pods
+                - application: techapp_battle_pods
+                - application: techapp_fighter_bays
+            branches:
+          - key: technode_super_alloys
+            unlocks:
+                - application: techapp_heavy_armor
+                - application: techapp_reinforced_hull
+            branches:
+          - key: technode_optronics
+            unlocks:
+                - application: techapp_holo_simulator
+                - application: techapp_shield_capacitor
+                - application: techapp_optronic_computer
+            branches:
+          - key: technode_cybertechnics
+            unlocks:
+                - application: techapp_robominers
+                - application: techapp_armor_barracks
+                - application: techapp_powered_armor
+            branches:
+          - key: technode_molecular_compression
+            unlocks:
+                - application: techapp_miniaturization_missiles_2
+                - application: techapp_pollution_processor
+                - application: techapp_neutronium_armor
+                - application: techapp_pulson_missile
+            branches:
+          - key: technode_anti_matter_fission
+            unlocks:
+                - application: techapp_miniaturization_bombs_2
+                - application: techapp_antimatter_drive
+                - application: techapp_ion_pulse_cannon
+                - application: techapp_antimatter_bomb
+            branches:
+          - key: technode_teaching_methods
+            unlocks:
+                - application: techapp_astro_university
+                - application: techapp_espionage_training_facility
+            branches:
+          - key: technode_electromagnetic_refraction
+            unlocks:
+                - application: techapp_advanced_navigation
+                - application: techapp_personal_shield
+                - application: techapp_stealth_suit
+            branches:
+          - key: technode_cybertronics
+            unlocks:
+                - application: techapp_structural_analyzer
+                - application: techapp_cybertronic_computer
+            branches:
+          - key: technode_astro_biology
+            unlocks:
+                - application: techapp_subterranean_farms
+                - application: techapp_weather_controller
+            branches:
+          - key: technode_advanced_robotics
+            unlocks:
+                - application: techapp_battlestation
+                - application: techapp_battleoids
+                - application: techapp_fast_missile_racks
+            branches:
+          - key: technode_advanced_tactics
+            unlocks:
+                - application: techapp_troop_pods
+                - application: techapp_space_academy
+                - application: techapp_advanced_military_outpost
+            branches:
+          - key: technode_multi_phased_physics
+            unlocks:
+                - application: techapp_phasor_rifle
+                - application: techapp_modifications_phasors
+                - application: techapp_multiphased_shield
+                - application: techapp_hard_shield
+            branches:
+          - key: technode_subspace_fields
+            unlocks:
+                - application: techapp_modifications_antimatter_torpedoes
+                - application: techapp_class_v_shield
+                - application: techapp_multiwave_ecm_jammer
+            branches:
+          - key: technode_warp_fields
+            unlocks:
+                - application: techapp_pulsar
+                - application: techapp_lightning_field
+            branches:
+          - key: technode_positronics
+            unlocks:
+                - application: techapp_autolab
+                - application: techapp_rangemaster_targeting_unit
+                - application: techapp_positronic_computer
+            branches:
+          - key: technode_artificial_life
+            unlocks:
+                - application: techapp_bio_terminator
+                - application: techapp_universal_antidote
+            branches:
+          - key: technode_high_energy_distribution
+            unlocks:
+                - application: techapp_highenergy_focus
+                - application: techapp_energy_absorber
+                - application: techapp_megafluxers
+            branches:
+          - key: technode_galactic_economics
+            unlocks:
+                - application: techapp_stock_exchange
+                - application: techapp_advanced_city_planning
+            branches:
+          - key: technode_plasma_physics
+            unlocks:
+                - application: techapp_miniaturization_torpedoes_2
+                - application: techapp_plasma_rifle
+                - application: techapp_plasma_torpedoes
+                - application: techapp_plasma_web
+            branches:
+          - key: technode_distortion_fields
+            unlocks:
+                - application: techapp_miniaturization_cannons_4
+                - application: techapp_gauss_cannon
+                - application: techapp_cloaking_device
+            branches:
+          - key: technode_artificial_intelligence
+            unlocks:
+                - application: techapp_neural_scanner
+                - application: techapp_achilles_targeting_unit
+                - application: techapp_anticloaking_device
+            branches:
+          - key: technode_molecular_control
+            unlocks:
+                - application: techapp_miniaturization_missiles_3
+                - application: techapp_adamantium_armor
+                - application: techapp_zeon_missile
+            branches:
+          - key: technode_tectonic_engineering
+            unlocks:
+                - application: techapp_deep_core_mine
+                - application: techapp_core_waste_dump
+            branches:
+          - key: technode_hyper_dimensional_fission
+            unlocks:
+                - application: techapp_miniaturization_beams_2
+                - application: techapp_hyper_drive
+                - application: techapp_plasma_cannon
+                - application: techapp_hyperx_capacitors
+            branches:
+          - key: technode_quantum_fields
+            unlocks:
+                - application: techapp_modifications_plasma_torpedoes
+                - application: techapp_modifications_gauss_cannon
+                - application: techapp_planetary_flux_shield
+                - application: techapp_class_vii_shield
+                - application: techapp_wide_area_jammer
+            branches:
+          - key: technode_moleculartronics
+            unlocks:
+                - application: techapp_advanced_damage_control
+                - application: techapp_modifications_zeon_missile
+                - application: techapp_pleasure_dome
+                - application: techapp_moleculartronic_computer
+            branches:
+          - key: technode_interphased_fission
+            unlocks:
+                - application: techapp_miniaturization_bombs_3
+                - application: techapp_modifications_plasma_cannon
+                - application: techapp_interphased_drive
+                - application: techapp_neutronium_bomb
+            branches:
+          - key: technode_galactic_networking
+            unlocks:
+                - application: techapp_virtual_reality_network
+                - application: techapp_galactic_currency_exchange
+                - application: techapp_galactic_cybernet
+            branches:
+          - key: technode_temporal_physics
+            unlocks:
+                - application: techapp_miniaturization_cannons_5
+                - application: techapp_disruptor_cannon
+                - application: techapp_stellar_converter
+            branches:
+          - key: technode_artificial_conciousness
+            unlocks:
+                - application: techapp_supercomputer
+                - application: techapp_cyber_security_link
+            branches:
+          - key: technode_temporal_fields
+            unlocks:
+                - application: techapp_modifications_disruptor_cannon
+                - application: techapp_planetary_barrier_shield
+                - application: techapp_class_x_shield
+                - application: techapp_phasing_cloak
+            branches:
+...

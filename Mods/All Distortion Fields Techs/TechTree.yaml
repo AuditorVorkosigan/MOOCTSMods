@@ -1,0 +1,10 @@
+---
+- collection: &Backend.Research.Technology
+    items:
+          - key: technode_distortion_fields
+            unlocks:
+                - application: techapp_miniaturization_cannons_4
+                - application: techapp_gauss_cannon
+                - application: techapp_cloaking_device
+            branches:
+...

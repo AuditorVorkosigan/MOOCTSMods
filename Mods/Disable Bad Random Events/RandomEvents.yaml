@@ -1,0 +1,79 @@
+---
+- collection: &Backend.RandomEvents.RandomEvent
+    items:
+        ##NEGATIVE_EVENTS
+          - key: randomevent_plague
+            attributes:
+               - name: minimumPopulationNeeded
+                 value: 2
+               - name: foodOutputModifier
+                 value: 0.5
+               - name: researchPointsNeeded
+                 value: 40
+               - name: cureIcon
+                 value: assets/techs/orion_archaeology.png
+               - name: cureName
+                 value: TECHNOLOGY_PLAGUE_CURE_NAME
+               - name: fromTurn
+                 value: 999999999
+          - key: randomevent_computer_virus
+            attributes:
+               - name: currentResearchPointsInvestmentMultiplier
+                 value: 0.5
+               - name: fromTurn
+                 value: 999999999
+          - key: randomevent_mineral_lose
+            attributes:
+               - name: populationPercentage
+                 value: 0.4
+               - name: fromTurn
+                 value: 999999999
+          - key: randomevent_supernova
+            attributes:
+               - name: researchPointsNeeded
+                 value: 150
+               - name: cureIcon
+                 value: assets/techs/orion_archaeology.png
+               - name: cureName
+                 value: TECHNOLOGY_SUPERNOVA_CURE_NAME
+               - name: turnToConversion
+                 value: 25
+               - name: fromTurn
+                 value: 999999999
+               - name: cooldown
+                 value: 35
+               - name: overlappingAllowed
+                 value: false
+          - key: randomevent_earthquake_minor
+            attributes:
+               - name: minimumBuildingsNeeded
+                 value: 3
+               - name: buildingsToDestroy
+                 value: 2
+               - name: fromTurn
+                 value: 999999999
+          - key: randomevent_earthquake_major
+            attributes:
+               - name: minimumBuildingsNeeded
+                 value: 2
+               - name: minimumPopulationNeeded
+                 value: 2
+               - name: buildingsDestroyedPercentage
+                 value: 0.5
+               - name: populationKilledPercentage
+                 value: 0.5
+               - name: fromTurn
+                 value: 999999999
+          - key: randomevent_industrial_accident
+            attributes:
+               - name: pollutionPercentage
+                 value: 0.95
+               - name: fromTurn
+                 value: 999999999
+          - key: randomevent_shipwreck
+            attributes:
+               - name: minimumFleetsNeeded
+                 value: 2
+               - name: fromTurn
+                 value: 999999999
+...

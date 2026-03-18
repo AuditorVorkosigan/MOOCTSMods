@@ -1,0 +1,16 @@
+---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          - key: structure_atmospheric_renewer
+            # pollutionMultiplierReduction: 0.25
+            pollutionCleaningRate: 10
+          - key: structure_pollution_processor
+            # pollutionMultiplierReduction: 0.5
+            pollutionCleaningRate: 30
+          - key: structure_core_waste_dump
+            # pollutionMultiplierReduction: 1
+            pollutionCleaningRate: 1000
+          - key: structure_toxics_processor
+            # pollutionMultiplierReduction: 0.25
+            pollutionCleaningRate: 15
+...

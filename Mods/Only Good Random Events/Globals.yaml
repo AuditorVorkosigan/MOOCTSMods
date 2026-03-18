@@ -1,0 +1,4 @@
+---
+- globals: &Backend.RandomEvents.RandomEvent
+    positiveEventChance: 100
+...

@@ -1,0 +1,7 @@
+---
+- collection: &Backend.Fleets.ShipModule
+    items:
+          - key: shipmodule_battle_scanner
+        #increases beam attack (also provides scanner range on strategy)
+            scannerRangeBonus: 2
+...

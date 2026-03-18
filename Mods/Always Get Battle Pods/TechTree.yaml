@@ -1,0 +1,10 @@
+---
+- collection: &Backend.Research.Technology
+    items:
+          - key: technode_advanced_construction
+            unlocks:
+                - application: techapp_survival_pods
+                - application: techapp_battle_pods
+                - application: techapp_fighter_bays
+            branches:
+...

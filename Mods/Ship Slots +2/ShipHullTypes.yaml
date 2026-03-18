@@ -1,0 +1,34 @@
+---
+- collection: &Backend.Fleets.ShipHullType
+    items:
+          - key: hull_frigate
+            name: HULL_FRIGATE_NAME
+            description: SHIP_TYPE_FRIGATE_DESCRIPTION
+            specialSlots: 5
+            weaponSlots: 5
+          - key: hull_destroyer
+            name: HULL_DESTROYER_NAME
+            description: SHIP_TYPE_DESTROYER_DESCRIPTION
+            specialSlots: 6
+            weaponSlots: 6
+          - key: hull_cruiser
+            name: HULL_CRUISER_NAME
+            description: SHIP_TYPE_CRUISER_DESCRIPTION
+            specialSlots: 7
+            weaponSlots: 7
+          - key: hull_battleship
+            name: HULL_BATTESHIP_NAME
+            description: SHIP_TYPE_BATTLESHIP_DESCRIPTION
+            specialSlots: 8
+            weaponSlots: 8
+          - key: hull_titan
+            name: HULL_TITAN_NAME
+            description: SHIP_TYPE_TITAN_DESCRIPTION
+            specialSlots: 9
+            weaponSlots: 9
+          - key: hull_doomstar
+            name: HULL_DOOMSTAR_NAME
+            description: SHIP_TYPE_DOOM_STAR_DESCRIPTION
+            specialSlots: 10
+            weaponSlots: 10
+...

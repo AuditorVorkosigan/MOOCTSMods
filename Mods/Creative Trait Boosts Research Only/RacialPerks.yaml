@@ -1,0 +1,38 @@
+---
+- collection: &Backend.Civilizations.RacialPerk
+    items:
+          - key: perk_research_bonus
+            levels:
+              - value: 0
+              - displayName: RESEARCH_LOW_NAME
+                description: RESEARCH_LOW_DESCRIPTION
+                value: -0.25
+                score: -3
+                displayIcon: assets/racial_traits/research_low.png
+              - displayName: RESEARCH_HIGH_NAME
+                description: RESEARCH_HIGH_DESCRIPTION
+                value: 0.25
+                score: 3
+                displayIcon: assets/racial_traits/research_high.png
+              - displayName: RESEARCH_MAXIMUM_NAME
+                description: RESEARCH_MAXIMUM_DESCRIPTION
+                value: 0.5
+                score: 6
+                displayIcon: assets/racial_traits/research_maximum.png
+              - displayName: RESEARCH_MAXIMUM_NAME
+                description: RESEARCH_MAXIMUM_DESCRIPTION
+                value: 0.75
+                score: 9
+                displayIcon: assets/racial_traits/research_maximum.png
+          - key: perk_creative
+            levels:
+                - value: false
+                - displayName: CREATIVE_NAME
+                  description: CREATIVE_DESCRIPTION
+                  value: true
+                  score: 9
+                  displayIcon: assets/racial_traits/creative.png
+            perks:
+               - perk: perk_research_bonus
+                 level: 4
+...
