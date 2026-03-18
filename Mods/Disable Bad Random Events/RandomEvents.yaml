@@ -76,4 +76,46 @@
                  value: 2
                - name: fromTurn
                  value: 999999999
+          - key: randomevent_diplomatic_misunderstanding
+            attributes:
+               - name: dispositionChange
+                 value: RANDOM_EVENT_MISUNDERSTANDING
+               - name: minimumRelationshipNeeded
+                 value: 1
+               - name: fromTurn
+                 value: 999999999
+          - key: randomevent_diplomatic_assassination
+            attributes:
+               - name: dispositionChange
+                 value: RANDOM_EVENT_ASSASSINATION
+               - name: minimumRelationshipNeeded
+                 value: 1
+               - name: fromTurn
+                 value: 999999999
+          - key: randomevent_hyperspace_flux
+            attributes:
+               - name: fromTurn
+                 value: 999999999
+               - name: cooldown
+                 value: 35
+               - name: overlappingAllowed
+                 value: false
+          - key: randomevent_time_anomaly
+            attributes:
+               - name: fromTurn
+                 value: 999999999
+               - name: cooldown
+                 value: 35
+               - name: overlappingAllowed
+                 value: false
+          - key: randomevent_comet
+            attributes:
+               - name: fromTurn
+                 value: 999999999
+               - name: militaryPowerNeeded
+                 value: 400
+               - name: cooldown
+                 value: 35
+               - name: overlappingAllowed
+                 value: false
 ...
