@@ -1,0 +1,12 @@
+﻿---
+- collection: &Backend.Civilizations.RacialPerk
+    items:
+          - key: perk_lithovore
+            levels:
+                - value: false
+                - displayName: LITHOVORE_NAME
+                  description: LITHOVORE_DESCRIPTION
+                  value: true
+                  score: 5
+                  displayIcon: assets/racial_traits/lithovore.png
+...

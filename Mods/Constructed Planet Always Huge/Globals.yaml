@@ -1,0 +1,4 @@
+﻿---
+- globals: &Backend.Galaxy.Planet
+    GAS_GIANT_COMPRESSION_LARGE_CHANCE: 0
+...

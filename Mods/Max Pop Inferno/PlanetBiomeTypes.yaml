@@ -1,0 +1,7 @@
+---
+- collection: &Backend.Galaxy.PlanetBiomeType
+    items:
+          - key: biome_inferno
+            biomeSoilFactor: 0
+            viableFarmingFactor: 1
+...

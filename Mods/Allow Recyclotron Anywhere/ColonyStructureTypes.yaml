@@ -1,0 +1,11 @@
+---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          - key: structure_recyclotron
+            compatibleRichness:
+               - planetmineralrichness_ultra_poor
+               - planetmineralrichness_poor
+               - planetmineralrichness_abundant
+               - planetmineralrichness_rich
+               - planetmineralrichness_ultra_rich
+...

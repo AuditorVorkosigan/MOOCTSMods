@@ -1,0 +1,8 @@
+---
+- collection: &Backend.Settlements.ColonyProject
+    items:
+          - key: colonyproject_asteroid_field
+            compatibleBiomes:
+                - biome_asteroid_field
+                - biome_relics
+...

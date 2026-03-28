@@ -1,0 +1,9 @@
+---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          - key: structure_recyclotron
+            workerYieldMultiplierBonus: 0.2
+            structureTypes: 
+                - 0
+                - 6
+...

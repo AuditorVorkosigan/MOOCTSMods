@@ -1,0 +1,9 @@
+---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          - key: structure_recyclotron
+            productionTileBonus: 1
+            structureTypes: 
+                - 0
+                - 6
+...

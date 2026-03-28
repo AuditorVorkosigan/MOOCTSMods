@@ -1,0 +1,15 @@
+﻿---
+- collection: &Backend.Civilizations.RacialPerk
+    items:
+          - key: perk_creative
+            levels:
+                - value: false
+                - displayName: CREATIVE_NAME
+                  description: CREATIVE_DESCRIPTION
+                  value: true
+                  score: 4
+                  displayIcon: assets/racial_traits/creative.png
+            perks:
+               - perk: perk_tech_discover_all
+                 level: 1
+...

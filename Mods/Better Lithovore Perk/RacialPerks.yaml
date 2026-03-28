@@ -1,0 +1,10 @@
+﻿---
+- collection: &Backend.Civilizations.RacialPerk
+    items:
+          - key: perk_lithovore
+            perks:
+               - perk: perk_food_consumption_modifier
+                 level: 3
+               - perk: perk_population_growth_modifier
+                 level: 4
+...

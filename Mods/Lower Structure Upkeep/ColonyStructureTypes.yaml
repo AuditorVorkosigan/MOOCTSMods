@@ -1,0 +1,183 @@
+﻿---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          #- key: structure_star_base
+           # upkeep: 1
+          #- key: structure_battlestation
+           # upkeep: 2
+          - key: structure_star_fortress
+            upkeep: 5
+          #- key: structure_scientific_victory_1
+           # upkeep: 0
+          #- key: structure_scientific_victory_2
+           # upkeep: 0
+          #- key: structure_scientific_victory_3
+           # upkeep: 0
+          - key: structure_colony_base
+            upkeep: 0
+          - key: structure_marine_barracks
+            upkeep: 1
+          #- key: structure_government_building
+           # upkeep: 1
+          #- key: structure_capitol
+           # upkeep: 3
+          - key: structure_interplanetary_administration
+            upkeep: 3
+          - key: structure_automated_factory
+            upkeep: 1
+          #- key: structure_missile_base
+           # upkeep: 1
+          #- key: structure_colonial_revenue_services
+           # upkeep: 0
+          - key: structure_crust_prospecting
+            upkeep: 1
+          #- key: structure_space_port
+           # upkeep: 0
+        # - structure: &structure_centralized_customs_dispatch
+            # #upkeep: 2
+          #- key: structure_planetary_stock_exchange
+           # upkeep: 0
+          #- key: structure_galactic_currency_exchange
+           # upkeep: 0
+        # - structure: &structure_interstellar_stock_exchange
+            # upkeep: 2
+          #- key: structure_armor_barracks
+           # upkeep: 2
+          #- key: structure_fighter_garrison
+           # upkeep: 2
+          - key: structure_robominers
+            upkeep: 4
+          - key: structure_geosynchronic_wharf
+            upkeep: 2
+          - key: structure_deep_core_mine
+            upkeep: 7
+          - key: structure_orbital_shipyard
+            upkeep: 3
+          - key: structure_recyclotron
+            upkeep: 3
+          #- key: structure_ground_batteries
+            #upkeep: 2
+        # - structure: &structure_artificial_planet_construction
+            # #upkeep: 0
+        # - structure: &structure_robotic_factory
+            # #upkeep: 3
+          - key: structure_atmospheric_renewer
+            upkeep: 1
+          - key: structure_pollution_processor
+            upkeep: 2
+          - key: structure_core_waste_dump
+            upkeep: 4
+          #- key: structure_artemis_system_net
+           # upkeep: 5
+          - key: structure_hydroponic_farm
+            upkeep: 1
+          - key: structure_subterranean_farms
+            upkeep: 3
+          #- key: structure_matter_converter
+           # upkeep: 2
+          - key: structure_weather_controller
+            upkeep: 3
+        # - structure: &structure_food_replicators
+            # #upkeep: 1
+          #- key: structure_space_academy
+           # upkeep: 5
+          #- key: structure_spy_center
+           # upkeep: 2
+          - key: structure_global_dna_scanner
+            upkeep: 3
+          #- key: structure_espionage_training_facility
+           # upkeep: 5
+          - key: structure_interplanetary_security_transmitter
+            upkeep: 5
+          #- key: structure_special_units
+           # upkeep: 2
+          - key: structure_alien_management_center
+            upkeep: 3
+          - key: structure_research_laboratory
+            upkeep: 1
+          - key: structure_autolab
+            upkeep: 3
+          - key: structure_astro_university
+            upkeep: 4
+          - key: structure_deep_sea_cooling
+            upkeep: 2
+          - key: structure_galactic_cybernet_node
+            upkeep: 7
+        # - structure: &structure_special_funding_tribunal
+            # #upkeep: 3
+          - key: structure_planetary_supercomputer
+            upkeep: 5
+          - key: structure_holo_simulator
+            upkeep: 2
+          - key: structure_pleasure_dome
+            upkeep: 5
+          - key: structure_biospheres
+            upkeep: 1
+          - key: structure_neutron_collider
+            upkeep: 2
+          - key: structure_advance_data_center
+            upkeep: 2
+          #- key: structure_high_orbit_sonar
+           # upkeep: 1
+          #- key: structure_anaerobic_colonies
+           # upkeep: 1
+          #- key: structure_underground_storage
+           # upkeep: 1
+          #- key: structure_solar_kiln
+           # upkeep: 1
+          - key: structure_fungal_farms
+            upkeep: 1
+          - key: structure_moon_laboratory
+            upkeep: 3
+          - key: structure_space_elevator
+            upkeep: 3
+        # - structure: &structure_asteroid_mines
+            # #upkeep: 1
+          - key: structure_cloning_center
+            upkeep: 2
+          - key: structure_soil_enrichment
+            upkeep: 1
+        # - structure: &structure_dimensional_portal
+            # #upkeep: 2
+          - key: structure_toxics_processor
+            upkeep: 2
+          - key: structure_gravity_generators
+            upkeep: 2
+          - key: structure_planetary_radiation_shield
+            upkeep: 2
+          - key: structure_warp_interdictor
+            upkeep: 3
+          - key: structure_planetary_flux_shield
+            upkeep: 3
+          - key: structure_planetary_barrier_shield
+            upkeep: 5
+          - key: structure_jump_gate
+            upkeep: 3
+          #- key: structure_antarans_portal
+           # upkeep: 0
+        ## DEVELOPMENT STRUCTURES
+          #- key: structure_asteroid_mine
+           # upkeep: 0
+          #- key: structure_asteroid_laboratory
+           # upkeep: 2
+          #- key: structure_superscalar_gas_harvester
+           # upkeep: 0
+          #- key: structure_military_outpost
+          #- key: structure_advanced_military_outpost
+          #- key: structure_surveilliance_system
+           # upkeep: 0
+          #- key: structure_outpost
+           # upkeep: 1
+          - key: structure_jump_gate_orbital
+            upkeep: 3
+          # - key: structure_advanced_jump_gate_orbital
+            # upkeep: 10
+        #Dont remove this structure. Used for workers while are building
+          #- key: structure_work_in_progress
+        #comment
+        ## REQUIRES REVISION
+          #- key: structure_radiotelescopic_observatory
+           # upkeep: 1
+          #- key: structure_sulphuric_condenser
+           # upkeep: 1
+...

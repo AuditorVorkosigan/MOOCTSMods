@@ -1,0 +1,11 @@
+﻿---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          - key: structure_asteroid_mine
+            creditIncomeBonus: 12
+          - key: structure_asteroid_laboratory
+            upkeep: 4
+            baseResearchBonus: 8
+          - key: structure_superscalar_gas_harvester
+            creditIncomeBonus: 15
+...

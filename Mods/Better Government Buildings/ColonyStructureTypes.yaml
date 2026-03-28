@@ -1,0 +1,10 @@
+﻿---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          - key: structure_government_building
+            moraleMultiplierBonus: 0.10
+            incomeMultiplierBonus: 0.10
+          - key: structure_capitol
+            moraleMultiplierBonus: 0.10
+            incomeMultiplierBonus: 0.10
+...

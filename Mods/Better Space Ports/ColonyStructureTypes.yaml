@@ -1,0 +1,7 @@
+﻿---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          - key: structure_space_port
+            workerIncomeBonus: 1
+            creditIncomeBonus: 8
+...
