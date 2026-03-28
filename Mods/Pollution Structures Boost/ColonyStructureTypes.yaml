@@ -4,13 +4,20 @@
           - key: structure_atmospheric_renewer
             # pollutionMultiplierReduction: 0.25
             pollutionCleaningRate: 10
+            upkeep: 1
           - key: structure_pollution_processor
             # pollutionMultiplierReduction: 0.5
             pollutionCleaningRate: 30
+            upkeep: 2
           - key: structure_core_waste_dump
             # pollutionMultiplierReduction: 1
             pollutionCleaningRate: 1000
+            upkeep: 4
           - key: structure_toxics_processor
             # pollutionMultiplierReduction: 0.25
             pollutionCleaningRate: 15
+            upkeep: 2
+          - key: structure_recyclotron
+            pollutionCleaningRate: 35
+            upkeep: 3
 ...
